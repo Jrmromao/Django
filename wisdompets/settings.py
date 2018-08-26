@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'winsdompets.urls'
+ROOT_URLCONF = 'wisdompets.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'winsdompets.wsgi.application'
+WSGI_APPLICATION = 'wisdompets.wsgi.application'
 
 
 # Database
