@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block content %}
+<div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <form method="post" action="{% url 'add_pet' %}">
+    {% csrf_token %}
+        <div class="form-group">
+            <label for="petName">Name</label>
+            <input name="name" type="text" class="form-control" id="petName"  placeholder="Pet Name">
+        </div>
+
+        <div class="form-group">
+            <label for="submitter">Submitter</label>
+            <input name="submitter" type="text" class="form-control" id="submitter" placeholder="Submitter">
+        </div>
+
+          <div class="form-group">
+            <label for="species">Species</label>
+            <input name="species" type="text" class="form-control" id="species" placeholder="Species">
+          </div>
+
+        <div class="form-group">
+            <label for="breed">Breed</label>
+            <input name="breed" type="text" class="form-control" id="breed" placeholder="Breed">
+        </div>
+
+        <div class="form-group">
+            <label for="description">Drecription</label>
+            <textarea name="description" class="form-control" rows="5" id="comment" id="description" placeholder="Description"></textarea>
+        </div>
+
+
+        <div class="form-group">
+            <label for="sex">Sex</label>
+            <select name="sex" class="form-control" id="sex">
+                <option value=""></option>
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+            </select>
+        </div>
+
+            <div class="form-group">
+            <label for="age">Age</label>
+            <input name="age" type="number" class="form-control" id="age" placeholder="Age">
+        </div>
+
+<button type="submit" class="btn btn-success">Add</button>
+</form>
+
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+{% endblock %}
