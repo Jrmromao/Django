@@ -1,0 +1,880 @@
+[
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "adoptions",
+      "model": "pet"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "adoptions",
+      "model": "vaccine"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "dov87u0q81i1u2hxxa7s9shzkkdoit7m",
+    "fields": {
+      "session_data": "NmEzZmU4Y2VkN2NhMTkzMTFhNTIwZWM5Y2MxYzYyNTlmMGFjMjJiODp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI0N2NmMzE0ZmJjZDEyMzIwNzM1ODEzN2JmYmU4Yjk2ZDllZTAzZjZlIn0=",
+      "expire_date": "2018-09-08T19:53:05.826Z"
+    }
+  },
+  {
+    "model": "adoptions.pet",
+    "pk": 1,
+    "fields": {
+      "name": "Pepe",
+      "submitter": "Reggie Tupp",
+      "species": "Rabbit",
+      "breed": "Cinnamon rabbit",
+      "description": "Six-month-old Pepe is very active and is always keeping us on our toes.",
+      "sex": "M",
+      "submission_date": "2016-11-28T13:30:00Z",
+      "age": 0,
+      "vaccinations": [
+        
+      ]
+    }
+  },
+  {
+    "model": "adoptions.pet",
+    "pk": 2,
+    "fields": {
+      "name": "Scooter",
+      "submitter": "Zachary Heilyn",
+      "species": "Hedgehog",
+      "breed": "White-bellied",
+      "description": "You have to keep an eye on Scooter because he will climb walls to escape his habitat.",
+      "sex": "M",
+      "submission_date": "2016-11-28T14:45:00Z",
+      "age": 2,
+      "vaccinations": [
+        
+      ]
+    }
+  },
+  {
+    "model": "adoptions.pet",
+    "pk": 3,
+    "fields": {
+      "name": "Zera",
+      "submitter": "Austin Finnagan",
+      "species": "Iguana",
+      "breed": "Cayman brac iguana",
+      "description": "This iguana is on the endangered species list, and is thriving well",
+      "sex": "F",
+      "submission_date": "2016-11-29T13:15:00Z",
+      "age": 3,
+      "vaccinations": [
+        
+      ]
+    }
+  },
+  {
+    "model": "adoptions.pet",
+    "pk": 4,
+    "fields": {
+      "name": "Oddball",
+      "submitter": "Howie Cadell",
+      "species": "Guinea pig",
+      "breed": "American guinea pig",
+      "description": "Oddball was the runt of his litter and has some breathing problems but is thriving well.",
+      "sex": "M",
+      "submission_date": "2016-11-29T10:00:00Z",
+      "age": 1,
+      "vaccinations": [
+        
+      ]
+    }
+  },
+  {
+    "model": "adoptions.pet",
+    "pk": 5,
+    "fields": {
+      "name": "Chyna",
+      "submitter": "Sandie Gobnet",
+      "species": "Turtle",
+      "breed": "Terrapin",
+      "description": "Chyna got her name because she\u2019s a gentle 13-year-old turtle with a tough shell.",
+      "sex": "F",
+      "submission_date": "2016-11-29T14:30:00Z",
+      "age": 13,
+      "vaccinations": [
+        
+      ]
+    }
+  },
+  {
+    "model": "adoptions.pet",
+    "pk": 6,
+    "fields": {
+      "name": "Rio",
+      "submitter": "Philip Ransu",
+      "species": "Dog",
+      "breed": "French bulldog",
+      "description": "Rio, the 5-year-old bulldog, loves to play ball with his best dog friend, Rudy.",
+      "sex": "M",
+      "submission_date": "2016-11-28T10:15:00Z",
+      "age": 5,
+      "vaccinations": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "adoptions.pet",
+    "pk": 7,
+    "fields": {
+      "name": "Nadalee",
+      "submitter": "Krystle Valerija",
+      "species": "Dog",
+      "breed": "Chihuahua",
+      "description": "Nadalee is a 7-year-old long hair Chihuahua with a very pleasant, laid back, temperament.",
+      "sex": "F",
+      "submission_date": "2016-11-28T16:00:00Z",
+      "age": 7,
+      "vaccinations": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "adoptions.pet",
+    "pk": 8,
+    "fields": {
+      "name": "Scout",
+      "submitter": "Nicolette Bardeau",
+      "species": "Dog",
+      "breed": "Jack Russell terrier",
+      "description": "Scout suffers from separation anxiety from his former owner but finds comfort in his crate with his favorite toy.",
+      "sex": "M",
+      "submission_date": "2016-11-28T09:00:00Z",
+      "age": 5,
+      "vaccinations": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "adoptions.pet",
+    "pk": 9,
+    "fields": {
+      "name": "Wesley",
+      "submitter": "Nathan Cayden",
+      "species": "Dog",
+      "breed": "Mixed breed",
+      "description": "At 8 years old there isn\u2019t anything Wesley can\u2019t do, he\u2019s very healthy and full of energy!",
+      "sex": "M",
+      "submission_date": "2016-11-29T16:00:00Z",
+      "age": 8,
+      "vaccinations": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "adoptions.pet",
+    "pk": 10,
+    "fields": {
+      "name": "Pax",
+      "submitter": "Sarah Greer",
+      "species": "Dog",
+      "breed": "Mixed breed",
+      "description": "Pax is a senior dog and is suffering from arthritic conditions, but doing well for his age.",
+      "sex": "M",
+      "submission_date": "2016-11-29T08:30:00Z",
+      "age": 8,
+      "vaccinations": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "adoptions.pet",
+    "pk": 11,
+    "fields": {
+      "name": "Sami",
+      "submitter": "Maggie Rickland",
+      "species": "Dog",
+      "breed": "Dalmation",
+      "description": "Sami is a very happy go lucky 1-year-old Dalmatian that loves to play.",
+      "sex": "M",
+      "submission_date": "2016-12-01T13:00:00Z",
+      "age": 1,
+      "vaccinations": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "adoptions.pet",
+    "pk": 12,
+    "fields": {
+      "name": "Casper",
+      "submitter": "Dalania Devitto",
+      "species": "Dog",
+      "breed": "Bichon frise",
+      "description": "Four-year-old Casper was rescued from a breeder when he was 2, and his owner takes great care in giving him a good life.",
+      "sex": "M",
+      "submission_date": "2016-12-01T11:30:00Z",
+      "age": 3,
+      "vaccinations": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "adoptions.pet",
+    "pk": 13,
+    "fields": {
+      "name": "Tibbs",
+      "submitter": "Shad Cayden",
+      "species": "Dog",
+      "breed": "Dachshund",
+      "description": "Tibbs suffers from a spinal condition that can cause immobilization and his owner has to watch his activity levels.",
+      "sex": "M",
+      "submission_date": "2016-12-01T08:45:00Z",
+      "age": 10,
+      "vaccinations": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "adoptions.pet",
+    "pk": 14,
+    "fields": {
+      "name": "Stich",
+      "submitter": "Dennis Nicholback",
+      "species": "Dog",
+      "breed": "English pointer",
+      "description": "Four-year-old Stich was born with a birth defect that required surgery at 6 weeks of age.",
+      "sex": "M",
+      "submission_date": "2016-12-02T13:30:00Z",
+      "age": 4,
+      "vaccinations": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "adoptions.pet",
+    "pk": 15,
+    "fields": {
+      "name": "Fluffy",
+      "submitter": "Tracy Westbay",
+      "species": "Cat",
+      "breed": "Domestic longhair",
+      "description": "Fluffy is a very fluffy 3-year-old cat, who loves watching cat videos and trying to recreate them.",
+      "sex": "F",
+      "submission_date": "2016-11-29T11:45:00Z",
+      "age": 3,
+      "vaccinations": [
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "model": "adoptions.pet",
+    "pk": 16,
+    "fields": {
+      "name": "Squiggles",
+      "submitter": "Madisyn Roope",
+      "species": "Cat",
+      "breed": "Orange tabby cat",
+      "description": "Squiggles was a feral rescue that is now kept as an indoor/outdoor cat, but prefers to be outside.",
+      "sex": "F",
+      "submission_date": "2016-11-30T10:15:00Z",
+      "age": 5,
+      "vaccinations": [
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "model": "adoptions.pet",
+    "pk": 17,
+    "fields": {
+      "name": "Lucky",
+      "submitter": "Lisa Choy-Wu",
+      "species": "Cat",
+      "breed": "Tortoiseshell cat",
+      "description": "One-year-old Lucky suffers from a rare heart condition, but has been able to live a relatively normal life.",
+      "sex": "M",
+      "submission_date": "2016-11-30T11:30:00Z",
+      "age": 1,
+      "vaccinations": [
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "model": "adoptions.pet",
+    "pk": 18,
+    "fields": {
+      "name": "Bailey",
+      "submitter": "Leslie Richardson",
+      "species": "Cat",
+      "breed": "Persian",
+      "description": "Bailey is a 3-year-old female Persian cat that was adopted by her owner as a baby.",
+      "sex": "F",
+      "submission_date": "2016-11-30T14:30:00Z",
+      "age": 3,
+      "vaccinations": [
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "model": "adoptions.pet",
+    "pk": 19,
+    "fields": {
+      "name": "Kiko",
+      "submitter": "Kathlyn Zlata",
+      "species": "Cat",
+      "breed": "Tabby cat",
+      "description": "Kiko is a very shy 8-year-old cat that was found as a baby under a refrigerator by her mommy.",
+      "sex": "F",
+      "submission_date": "2016-11-30T15:45:00Z",
+      "age": 8,
+      "vaccinations": [
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "model": "adoptions.pet",
+    "pk": 20,
+    "fields": {
+      "name": "Shadow",
+      "submitter": "Audry Topsy",
+      "species": "Cat",
+      "breed": "Bombay",
+      "description": "Shadow is a 5-year-old cat that gains weight very easily and has to be kept on a special diet.",
+      "sex": "F",
+      "submission_date": "2016-12-02T10:15:00Z",
+      "age": 5,
+      "vaccinations": [
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "model": "adoptions.pet",
+    "pk": 21,
+    "fields": {
+      "name": "Felix",
+      "submitter": "Francine Benet",
+      "species": "Iguana",
+      "breed": "Green iguana",
+      "description": "Felix is a sly little 6-year-old iguana that is always getting into trouble and keeps his mom on her toes.",
+      "sex": "M",
+      "submission_date": "2016-11-30T09:00:00Z",
+      "age": 6,
+      "vaccinations": [
+        
+      ]
+    }
+  },
+  {
+    "model": "adoptions.pet",
+    "pk": 22,
+    "fields": {
+      "name": "Cosmo",
+      "submitter": "Jennifer Dawson",
+      "species": "Bird",
+      "breed": "Parrot",
+      "description": "Cosmo is possibly the happiest parrot that lived, and loves to sing Happy Birthday to anyone that will listen.",
+      "sex": "M",
+      "submission_date": "2016-12-01T10:00:00Z",
+      "age": 8,
+      "vaccinations": [
+        
+      ]
+    }
+  },
+  {
+    "model": "adoptions.pet",
+    "pk": 23,
+    "fields": {
+      "name": "Chip",
+      "submitter": "Jason Hemlock",
+      "species": "Fish",
+      "breed": "Cichild",
+      "description": "Chip is a vivacious 5-year-old African Cichlid with a bit of a temper towards other fish.",
+      "sex": "M",
+      "submission_date": "2016-12-01T15:15:00Z",
+      "age": 5,
+      "vaccinations": [
+        
+      ]
+    }
+  },
+  {
+    "model": "adoptions.pet",
+    "pk": 24,
+    "fields": {
+      "name": "Nugget",
+      "submitter": "Darla Branson",
+      "species": "Hamster",
+      "breed": "Golden hamster",
+      "description": "Nugget\u2019s got his name because his owner\u2019s daughter though he looked like a golden nugget when he was a baby.",
+      "sex": "M",
+      "submission_date": "2016-12-02T15:00:00Z",
+      "age": 6,
+      "vaccinations": [
+        
+      ]
+    }
+  },
+  {
+    "model": "adoptions.vaccine",
+    "pk": 1,
+    "fields": {
+      "name": "Canine Parvo"
+    }
+  },
+  {
+    "model": "adoptions.vaccine",
+    "pk": 2,
+    "fields": {
+      "name": "Canine Distemper"
+    }
+  },
+  {
+    "model": "adoptions.vaccine",
+    "pk": 3,
+    "fields": {
+      "name": "Canine Rabies"
+    }
+  },
+  {
+    "model": "adoptions.vaccine",
+    "pk": 4,
+    "fields": {
+      "name": "Canine Leptospira"
+    }
+  },
+  {
+    "model": "adoptions.vaccine",
+    "pk": 5,
+    "fields": {
+      "name": "Feline Herpes Virus 1"
+    }
+  },
+  {
+    "model": "adoptions.vaccine",
+    "pk": 6,
+    "fields": {
+      "name": "Feline Rabies"
+    }
+  },
+  {
+    "model": "adoptions.vaccine",
+    "pk": 7,
+    "fields": {
+      "name": "Feline Leukemia"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add pet",
+      "content_type": 7,
+      "codename": "add_pet"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change pet",
+      "content_type": 7,
+      "codename": "change_pet"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete pet",
+      "content_type": 7,
+      "codename": "delete_pet"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view pet",
+      "content_type": 7,
+      "codename": "view_pet"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add vaccine",
+      "content_type": 8,
+      "codename": "add_vaccine"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change vaccine",
+      "content_type": 8,
+      "codename": "change_vaccine"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete vaccine",
+      "content_type": 8,
+      "codename": "delete_vaccine"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view vaccine",
+      "content_type": 8,
+      "codename": "view_vaccine"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$120000$TD3l3rWe58tu$eIEN12ihLQmHRVHwfMwoGNxjMO5etRzc7SIjNMChQTQ=",
+      "last_login": "2018-08-25T19:53:05.733Z",
+      "is_superuser": true,
+      "username": "jrmromao",
+      "first_name": "",
+      "last_name": "",
+      "email": "joao@mail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2018-08-25T19:52:00.743Z",
+      "groups": [
+        
+      ],
+      "user_permissions": [
+        
+      ]
+    }
+  }
+]
